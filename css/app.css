@@ -1,0 +1,14 @@
+* {font-family: Montserrat, Arial, sans-serif}
+
+.container {padding: 0; height: 100%; max-width: 1700px; margin: auto; width: 70%;}
+.btn {padding: 16px 20px; background-color: blue; color: #fff; border-radius: 40px;}
+a {}
+
+.nav {background-color: #fafafa; height: 80px; position: absolute; top: 0; left: 0; width: 100%;}
+.nav ul {height: 100%; list-style-type: none; margin: 0; padding: 0; text-align: right}
+.nav ul li {display: inline-block; height: 100%;}
+.nav ul li a { padding: 4px 10px;}
+
+.banner {background-color: #fff; height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column}
+.banner h1 {margin-bottom: 15px; font-size: 40px;}
+.banner h3 {margin-top: 0px; color: #999; font-weight: 300;}
