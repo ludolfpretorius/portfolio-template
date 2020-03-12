@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>My Portfolio</title>
 	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/app.css">
 
 	<script src="https://kit.fontawesome.com/edcfa51259.js" crossorigin="anonymous"></script>
@@ -28,6 +29,7 @@
 	</div>
 	
 	<div class="about">
+		<h2>About me</h2>
 		<span>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum commodi explicabo eos blanditiis saepe similique repudiandae natus quas perspiciatis laborum repellat nulla ipsa deserunt perferendis, sint sequi iste. Earum, odio.</p>
 		</span>
@@ -37,7 +39,7 @@
 	</div>
 
 	<div class="work">
-		<ul class="flex">
+		<ul>
 			<li>
 				<a href="#">
 					<img src="img/cake.png" alt="cake" width="330">
@@ -68,10 +70,12 @@
 	</div>
 
 	<div class="contact">
+		<h2>Contact me</h2>
 		<form action="mailer.php">
 			<input type="text" name="name" placeholder="Name">
 			<input type="text" name="email" placeholder="Email">
 			<textarea name="message" rows="8" placeholder="Message"></textarea>
+			<button type="submit" name="submit" class="btn">Send</button>
 		</form>
 	</div>
 
