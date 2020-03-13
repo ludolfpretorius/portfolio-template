@@ -53,7 +53,7 @@ input:focus, textarea:focus {border-bottom-color: #448AFF;}
 
 /*FOOTER*/
 .footer {padding: 100px 12% 0; background-color: #1f2d41; color: #a6abb2}
-.footer h2 {text-align: left; color: #fff; margin-bottom: 20px; font-weight: 600}
+.footer h2 {text-align: left; color: #fff; margin-bottom: 20px; font-size: 20px;}
 .footer .flex {display: flex;}
 .footer .contact-details {width: 33%; display: inline-block;}
 .footer .contact-details a {color: #a6abb2; text-decoration: none; margin-bottom: 10px; display: block}
