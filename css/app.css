@@ -47,7 +47,7 @@ h3 {margin-top: 0px; color: #687281; font-weight: 300; text-align: center; margi
 /*CONTACT*/
 .contact {background-color: #eff3f9; padding: 80px 12% 140px;}
 .contact form {width: 500px; margin: auto; display: block}
-input, textarea {resize: none; display: block; margin: auto; width: 100%; margin-bottom: 020px; padding: 10px; border: none; border-bottom: 2px solid #eee; background-color:  transparent; outline: none;}
+input, textarea {resize: none; display: block; margin: auto; width: 100%; margin-bottom: 020px; padding: 10px; border: none; border-bottom: 2px solid #e1e8f2; background-color:  transparent; outline: none;}
 input:focus, textarea:focus {border-bottom-color: #448AFF;}
 .contact form button {float: right;}
 
