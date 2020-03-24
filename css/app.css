@@ -1,3 +1,4 @@
+
 /*ALL*/
 * {font-family: Montserrat, Arial, sans-serif; color: #323f52;}
 
@@ -10,6 +11,7 @@ a {}
 h2 {text-align: center; color: #323f52; font-weight: 500; margin-bottom: 10px; }
 h3 {margin-top: 0px; color: #687281; font-weight: 300; text-align: center; margin-bottom: 40px; font-size: 16px}
 
+
 /*NAV*/
 .nav {background-color: #fff; height: 100px; position: fixed; top: 0; left: 0; width: 100%; z-index: 999}
 .nav ul {height: 100%; list-style-type: none; margin: 0; padding: 0; text-align: right; padding-top: 40px;}
@@ -17,24 +19,25 @@ h3 {margin-top: 0px; color: #687281; font-weight: 300; text-align: center; margi
 .nav ul li a { padding: 15px 10px; text-decoration: none; color: #687281;}
 .nav ul li a.btn {padding: 15px 24px; color: #fff; background-color: #f4a100; margin-left: 10px}
 
+
 /*BANNER*/
 .banner {background-color: #fff; height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column}
 .banner h1 {margin-bottom: 15px; font-size: 40px;}
 .banner h3 {margin-top: 0px; color: #999; font-weight: 300;}
 
+
 /*ABOUT*/
 .about {background-color: #eff3f9; padding: 120px 12%; display: flex; justify-content: center}
 .about span {display: inline-block; width: 46%; padding: 0 10px; line-height: 28px; color: #687281;}
-
 .about .icon-box {display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 0 40px;}
 .about .icon-box:nth-child(1) .img-wrap {background-color: #e81500}
 .about .icon-box:nth-child(2) .img-wrap {background-color: #f4a100}
 .about .icon-box:nth-child(3) .img-wrap{background-color: #0061f2}
 .about .icon-box .img-wrap {padding: 20px; border-radius: 100%; background-color: blue; height: 40px; width: 40px; display: flex; justify-content: center; align-items: center;}
 .about .icon-box svg {width: 30px; fill: #fff;}
-
 .about .icon-box h2 {text-align: center;}
 .about .icon-box h3 {text-align: center; max-width: 380px; margin-bottom: 0}
+
 
 /*WORK*/
 .work {padding: 100px 12%;}
@@ -44,12 +47,14 @@ h3 {margin-top: 0px; color: #687281; font-weight: 300; text-align: center; margi
 .work ul li a img {object-fit: cover; height: 100%; width: 100%; transition: all 0.2s ease}
 .work ul li a:hover img {transform: scale(1.15);}
 
+
 /*CONTACT*/
 .contact {background-color: #eff3f9; padding: 80px 12% 140px;}
 .contact form {width: 500px; margin: auto; display: block}
 input, textarea {resize: none; display: block; margin: auto; width: 100%; margin-bottom: 020px; padding: 10px; border: none; border-bottom: 2px solid #e1e8f2; background-color:  transparent; outline: none;}
 input:focus, textarea:focus {border-bottom-color: #448AFF;}
 .contact form button {float: right;}
+
 
 /*FOOTER*/
 .footer {padding: 100px 12% 0; background-color: #1f2d41; color: #a6abb2}
@@ -64,3 +69,7 @@ input:focus, textarea:focus {border-bottom-color: #448AFF;}
 .footer hr {border-color: #364254;}
 .footer .copyright {padding: 40px 0; border-top: 1px solid #364254; margin-top: 100px}
 .footer .copyright p {color: #a6abb2}
+
+
+
+
