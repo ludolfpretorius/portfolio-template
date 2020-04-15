@@ -11,6 +11,11 @@ a {}
 h2 {text-align: center; color: #323f52; font-weight: 500; margin-bottom: 10px; }
 h3 {margin-top: 0px; color: #687281; font-weight: 300; text-align: center; margin-bottom: 40px; font-size: 16px}
 
+/*POP*/
+.pop {display: flex; justify-content: center; align-items: center; opacity: 0; pointer-events: none; position: fixed; margin: auto; top: 0; bottom: 0; left: 0; right: 0; transition: all 0.4s ease;height: 700px; width: 1200px; background: #fff; box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.11); z-index: 9999;}
+.pop.show {opacity: 1; pointer-events: all;}
+.pop .close {position: absolute; top: 15px; right: 22px; font-size: 40px; outline: none; cursor: pointer;}
+.pop img { height: 80%; width: auto;}
 
 /*NAV*/
 .nav {background-color: #fff; height: 100px; position: fixed; top: 0; left: 0; width: 100%; z-index: 999}
